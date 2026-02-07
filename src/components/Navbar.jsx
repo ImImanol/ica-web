@@ -31,7 +31,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16 md:h-20">
           <a href="#" className="flex items-center gap-3">
             <img
-              src="/logo.jpg"
+              src="/logo.webp"
               alt="ICA Logo"
               className="h-10 md:h-12 rounded-lg"
             />

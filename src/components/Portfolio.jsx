@@ -8,7 +8,7 @@ const projects = [
     description:
       "Plataforma web profesional para empresa de inversiones. Diseño elegante que transmite confianza y solidez.",
     tags: ["React", "Diseño UI/UX", "SEO", "WhatsApp"],
-    image: "/patagonia-inversiones.png",
+    image: "/patagonia-inversiones.webp",
     link: "#",
   },
   {
@@ -17,7 +17,7 @@ const projects = [
     description:
       "Landing page para complejo de cabañas. Enfocada en mostrar las instalaciones y facilitar reservas.",
     tags: ["React", "Diseño UI/UX", "SEO", "WhatsApp"],
-    image: "/la-casa-de-hunter.png",
+    image: "/la-casa-de-hunter.webp",
     link: "https://lacasadehunter.com/",
   },
   {
@@ -26,7 +26,7 @@ const projects = [
     description:
       "Sistema integral de gestión con facturación, control de stock y administración. Solución completa a medida.",
     tags: ["Sistema", "Facturación", "Stock"],
-    image: "/sistema-ferreteria.png",
+    image: "/sistema-ferreteria.webp",
     link: "#",
   },
 ];

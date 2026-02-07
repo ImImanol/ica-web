@@ -17,7 +17,7 @@ export default function About() {
           <div className="relative">
             <div className="bg-gradient-to-br from-navy-800 to-navy-900 border border-navy-800 rounded-2xl aspect-square max-w-md mx-auto overflow-hidden">
               <img
-                src="/yo-about.jpeg"
+                src="/yo-about.webp"
                 alt="Imanol Castro - Desarrollador web y Técnico Superior en Diseño y Programación Web"
                 loading="lazy"
                 className="w-full h-full object-cover object-top"
