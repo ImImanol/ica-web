@@ -3,6 +3,7 @@ import {
   MessageCircle,
   Mail,
   Phone,
+  Linkedin,
   CheckCircle,
   AlertCircle,
 } from "lucide-react";
@@ -117,6 +118,21 @@ export default function Contact() {
               <div>
                 <div className="text-white font-medium">Teléfono</div>
                 <div className="text-gray-500 text-sm">+54 2942 553671</div>
+              </div>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/imanol-castro-gamero"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-4 bg-navy-900/50 border border-navy-800 hover:border-blue-500/30 rounded-xl p-5 transition-all duration-300 group"
+            >
+              <div className="w-12 h-12 bg-blue-500/10 rounded-xl flex items-center justify-center group-hover:bg-blue-500/20 transition-colors">
+                <Linkedin size={22} className="text-blue-400" />
+              </div>
+              <div>
+                <div className="text-white font-medium">LinkedIn</div>
+                <div className="text-gray-500 text-sm">Imanol Castro Gamero</div>
               </div>
             </a>
           </div>
