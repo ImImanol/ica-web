@@ -78,7 +78,7 @@ export default function About() {
                     Ubicación
                   </div>
                   <div className="text-gray-500 text-sm">
-                    Patagonia, Argentina
+                    Capital Federal, Argentina
                   </div>
                 </div>
               </div>

@@ -15,7 +15,7 @@ const projects = [
     title: "La Casa de Hunter Cabañas",
     category: "Landing Page",
     description:
-      "Landing page para complejo de cabañas en Villa Pehuenia. Enfocada en mostrar las instalaciones y facilitar reservas.",
+      "Landing page para complejo de cabañas. Enfocada en mostrar las instalaciones y facilitar reservas.",
     tags: ["React", "Diseño UI/UX", "SEO", "WhatsApp"],
     image: "/la-casa-de-hunter.png",
     link: "https://lacasadehunter.com/",
