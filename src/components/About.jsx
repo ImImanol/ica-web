@@ -1,4 +1,4 @@
-import { MapPin, Code } from "lucide-react";
+import { MapPin, GraduationCap } from "lucide-react";
 import useScrollReveal from "../hooks/useScrollReveal";
 
 export default function About() {
@@ -18,7 +18,8 @@ export default function About() {
             <div className="bg-gradient-to-br from-navy-800 to-navy-900 border border-navy-800 rounded-2xl aspect-square max-w-md mx-auto overflow-hidden">
               <img
                 src="/yo-about.jpeg"
-                alt="Immanol Castro"
+                alt="Imanol Castro - Desarrollador web y Técnico Superior en Diseño y Programación Web"
+                loading="lazy"
                 className="w-full h-full object-cover object-top"
               />
             </div>
@@ -40,7 +41,7 @@ export default function About() {
               Sobre mí
             </span>
             <h2 className="text-3xl md:text-4xl font-bold text-white mt-3 mb-6">
-              Immanol Castro
+              Imanol Castro
             </h2>
             <p className="text-gray-400 leading-relaxed mb-4">
               Desarrollador web apasionado por crear soluciones digitales que
@@ -55,6 +56,19 @@ export default function About() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-6">
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 bg-gold-500/10 rounded-lg flex items-center justify-center">
+                  <GraduationCap size={18} className="text-gold-400" />
+                </div>
+                <div>
+                  <div className="text-white font-medium text-sm">
+                    Técnico Superior en Diseño y Programación Web
+                  </div>
+                  <div className="text-gray-500 text-sm">
+                    Facultad Da Vinci
+                  </div>
+                </div>
+              </div>
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 bg-gold-500/10 rounded-lg flex items-center justify-center">
                   <MapPin size={18} className="text-gold-400" />
