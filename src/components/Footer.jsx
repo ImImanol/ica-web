@@ -1,3 +1,5 @@
+import { Github } from 'lucide-react'
+
 export default function Footer() {
   return (
     <footer className="border-t border-navy-800 py-8">
@@ -18,6 +20,15 @@ export default function Footer() {
             </a>
             <a href="#contacto" className="text-sm text-gray-500 hover:text-gold-400 transition-colors">
               Contacto
+            </a>
+            <a
+              href="https://github.com/ImImanol"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-500 hover:text-gold-400 transition-colors"
+              aria-label="GitHub"
+            >
+              <Github size={18} />
             </a>
           </div>
         </div>
