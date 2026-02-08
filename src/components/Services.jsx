@@ -40,7 +40,7 @@ export default function Services() {
         <div
           ref={headerRef}
           className={`text-center mb-16 transition-all duration-700 ${
-            headerVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+            headerVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-3'
           }`}
         >
           <span className="text-gold-500 font-semibold text-sm uppercase tracking-wider">
@@ -59,7 +59,7 @@ export default function Services() {
             <div
               key={i}
               className={`group bg-navy-900/50 border border-navy-800 hover:border-gold-500/30 rounded-2xl p-8 transition-all duration-500 hover:bg-navy-800/50 hover:-translate-y-1 backdrop-blur-sm ${
-                gridVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+                gridVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-3'
               }`}
               style={{ transitionDelay: gridVisible ? `${i * 100}ms` : '0ms' }}
             >

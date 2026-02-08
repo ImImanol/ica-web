@@ -40,7 +40,7 @@ export default function Process() {
         <div
           ref={headerRef}
           className={`text-center mb-16 transition-all duration-700 ${
-            headerVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+            headerVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-3'
           }`}
         >
           <span className="text-gold-500 font-semibold text-sm uppercase tracking-wider">
@@ -59,7 +59,7 @@ export default function Process() {
             <div
               key={i}
               className={`relative transition-all duration-500 ${
-                stepsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+                stepsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-3'
               }`}
               style={{ transitionDelay: stepsVisible ? `${i * 120}ms` : '0ms' }}
             >

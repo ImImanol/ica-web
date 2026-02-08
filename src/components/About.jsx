@@ -9,7 +9,7 @@ export default function About() {
       <div
         ref={ref}
         className={`relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 transition-all duration-700 ${
-          isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+          isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-3"
         }`}
       >
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -45,14 +45,13 @@ export default function About() {
             </h2>
             <p className="text-gray-400 leading-relaxed mb-4">
               Desarrollador web apasionado por crear soluciones digitales que
-              realmente hagan la diferencia para negocios locales. Creo que cada
-              negocio merece tener presencia en internet, sin importar su
-              tamaño.
+              realmente hagan la diferencia. Creo que cada negocio merece tener
+              presencia en internet, sin importar su tamaño.
             </p>
             <p className="text-gray-400 leading-relaxed mb-8">
-              Mi objetivo es ayudar a emprendedores y empresas de la zona a dar
-              el salto digital con sitios web profesionales, rápidos y que
-              realmente generen resultados.
+              Mi objetivo es ayudar a emprendedores y empresas a dar el salto
+              digital con sitios web profesionales, rápidos y que realmente
+              generen resultados.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-6">
@@ -78,7 +77,7 @@ export default function About() {
                     Ubicación
                   </div>
                   <div className="text-gray-500 text-sm">
-                    Capital Federal, Argentina
+                    Buenos Aires, Argentina
                   </div>
                 </div>
               </div>

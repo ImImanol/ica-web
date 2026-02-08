@@ -41,7 +41,7 @@ export default function Portfolio() {
         <div
           ref={headerRef}
           className={`text-center mb-16 transition-all duration-700 ${
-            headerVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+            headerVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-3"
           }`}
         >
           <span className="text-gold-500 font-semibold text-sm uppercase tracking-wider">
@@ -61,7 +61,7 @@ export default function Portfolio() {
             <div
               key={i}
               className={`group bg-navy-900/50 border border-navy-800 hover:border-gold-500/30 rounded-2xl overflow-hidden transition-all duration-500 hover:-translate-y-2 hover:shadow-xl hover:shadow-gold-500/5 ${
-                gridVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+                gridVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-3"
               }`}
               style={{ transitionDelay: gridVisible ? `${i * 150}ms` : "0ms" }}
             >
