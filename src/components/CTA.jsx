@@ -22,14 +22,14 @@ export default function CTA() {
           ?
         </h2>
         <p className="text-gray-400 text-lg mb-8 max-w-2xl mx-auto">
-          No importa el tamaño de tu negocio. Creo la solución digital que necesitás para crecer.
+          No importa el tamaño de tu negocio. Creamos la solución digital que necesitás para crecer.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
             href="#contacto"
             className="group bg-gold-500 hover:bg-gold-400 text-navy-950 font-bold px-8 py-3.5 rounded-xl transition-all duration-200 flex items-center justify-center gap-2 text-lg shadow-lg shadow-gold-500/20 hover:shadow-gold-400/30 cursor-pointer"
           >
-            Contactame ahora
+            Contactanos ahora
             <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
           </a>
           <a
@@ -38,7 +38,7 @@ export default function CTA() {
             rel="noopener noreferrer"
             className="border border-green-500/30 hover:border-green-400/50 bg-green-500/5 hover:bg-green-500/10 text-green-400 font-medium px-8 py-3.5 rounded-xl transition-all duration-200 text-lg cursor-pointer text-center"
           >
-            Escribime por WhatsApp
+            Escribinos por WhatsApp
           </a>
         </div>
       </div>

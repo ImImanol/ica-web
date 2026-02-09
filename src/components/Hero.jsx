@@ -21,19 +21,19 @@ export default function Hero() {
 
       {/* Decorative glows - parallax */}
       <div
-        className="absolute top-1/4 left-1/4 w-96 h-96 bg-gold-500/10 rounded-full blur-3xl transition-transform duration-300 ease-out"
+        className="absolute top-1/4 left-1/4 w-96 h-96 bg-gold-500/20 rounded-full blur-3xl transition-transform duration-300 ease-out"
         style={{
           transform: `translate(${mousePos.x * 40}px, ${mousePos.y * 40}px)`,
         }}
       />
       <div
-        className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-navy-600/20 rounded-full blur-3xl transition-transform duration-300 ease-out"
+        className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-navy-600/35 rounded-full blur-3xl transition-transform duration-300 ease-out"
         style={{
           transform: `translate(${mousePos.x * -30}px, ${mousePos.y * -30}px)`,
         }}
       />
       <div
-        className="absolute top-1/2 left-1/2 w-64 h-64 bg-gold-500/5 rounded-full blur-3xl transition-transform duration-500 ease-out"
+        className="absolute top-1/2 left-1/2 w-64 h-64 bg-gold-500/15 rounded-full blur-3xl transition-transform duration-500 ease-out"
         style={{
           transform: `translate(-50%, -50%) translate(${mousePos.x * 60}px, ${mousePos.y * 60}px)`,
         }}
@@ -41,7 +41,7 @@ export default function Hero() {
 
       {/* Grid pattern overlay */}
       <div
-        className="absolute inset-0 opacity-[0.03]"
+        className="absolute inset-0 opacity-[0.07]"
         style={{
           backgroundImage:
             "linear-gradient(rgba(232,168,48,0.3) 1px, transparent 1px), linear-gradient(90deg, rgba(232,168,48,0.3) 1px, transparent 1px)",
@@ -60,7 +60,7 @@ export default function Hero() {
 
         {/* Main title */}
         <h1 className="text-4xl sm:text-5xl md:text-7xl font-black text-white leading-tight mb-6">
-          Llevo tu negocio
+          Llevamos tu negocio
           <br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-gold-400 to-gold-600">
             al mundo digital
@@ -68,8 +68,8 @@ export default function Hero() {
         </h1>
 
         <p className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto mb-10 leading-relaxed">
-          Diseño y desarrollo sitios web, landing pages y sistemas a medida
-          que hacen crecer tu negocio.
+          Diseñamos y desarrollamos sitios web, landing pages y sistemas a
+          medida que hacen crecer tu negocio.
         </p>
 
         {/* CTAs */}

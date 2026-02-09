@@ -3,7 +3,6 @@ import {
   MessageCircle,
   Mail,
   Phone,
-  Linkedin,
   CheckCircle,
   AlertCircle,
 } from "lucide-react";
@@ -67,7 +66,7 @@ export default function Contact() {
             Empecemos tu proyecto
           </h2>
           <p className="text-gray-400 mt-4 max-w-2xl mx-auto">
-            Contame tu idea y te respondo en menos de 24 horas.
+            Contanos tu idea y te respondemos en menos de 24 horas.
           </p>
         </div>
 
@@ -77,7 +76,7 @@ export default function Contact() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
           {/* Contact info */}
-          <div className="space-y-6">
+          <div className="space-y-6 flex flex-col justify-center">
             <a
               href="https://wa.me/5492942553671"
               target="_blank"
@@ -121,20 +120,6 @@ export default function Contact() {
               </div>
             </a>
 
-            <a
-              href="https://www.linkedin.com/in/imanol-castro-gamero"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-4 bg-navy-900/50 border border-navy-800 hover:border-blue-500/30 rounded-xl p-5 transition-all duration-300 group"
-            >
-              <div className="w-12 h-12 bg-blue-500/10 rounded-xl flex items-center justify-center group-hover:bg-blue-500/20 transition-colors">
-                <Linkedin size={22} className="text-blue-400" />
-              </div>
-              <div>
-                <div className="text-white font-medium">LinkedIn</div>
-                <div className="text-gray-500 text-sm">Imanol Castro Gamero</div>
-              </div>
-            </a>
           </div>
 
           {/* Form */}
@@ -174,7 +159,7 @@ export default function Contact() {
                 required
                 rows={4}
                 className="w-full bg-navy-900/50 border border-navy-800 rounded-xl px-4 py-3 text-white placeholder-gray-600 focus:outline-none focus:border-gold-500/50 transition-colors resize-none"
-                placeholder="Contame sobre tu proyecto..."
+                placeholder="Contanos sobre tu proyecto..."
               />
             </div>
 
