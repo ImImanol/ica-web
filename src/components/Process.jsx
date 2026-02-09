@@ -47,7 +47,7 @@ export default function Process() {
             Proceso
           </span>
           <h2 className="text-3xl md:text-5xl font-bold text-white mt-3">
-            Cómo trabajamos
+            Cómo trabajo
           </h2>
           <p className="text-gray-400 mt-4 max-w-2xl mx-auto">
             Un proceso simple y transparente. Desde la idea hasta tu sitio en línea.
