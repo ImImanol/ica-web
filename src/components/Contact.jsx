@@ -94,7 +94,7 @@ export default function Contact() {
             </a>
 
             <a
-              href="mailto:imacastro06@gmail.com"
+              href="mailto:contacto@icaweb.dev"
               className="flex items-center gap-4 bg-navy-900/50 border border-navy-800 hover:border-gold-500/30 rounded-xl p-5 transition-all duration-300 group"
             >
               <div className="w-12 h-12 bg-gold-500/10 rounded-xl flex items-center justify-center group-hover:bg-gold-500/20 transition-colors">
@@ -103,7 +103,7 @@ export default function Contact() {
               <div>
                 <div className="text-white font-medium">Email</div>
                 <div className="text-gray-500 text-sm">
-                  imacastro06@gmail.com
+                  contacto@icaweb.dev
                 </div>
               </div>
             </a>
