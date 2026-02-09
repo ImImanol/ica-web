@@ -1,10 +1,13 @@
 import { useEffect, useRef, useState } from 'react'
 
 export default function useScrollReveal(threshold = 0.01) {
+  const isMobile = typeof window !== 'undefined' && window.innerWidth < 768
   const ref = useRef(null)
-  const [isVisible, setIsVisible] = useState(false)
+  const [isVisible, setIsVisible] = useState(isMobile)
 
   useEffect(() => {
+    if (isMobile) return
+
     const node = ref.current
     if (!node) return
 
@@ -20,7 +23,7 @@ export default function useScrollReveal(threshold = 0.01) {
 
     observer.observe(node)
     return () => observer.unobserve(node)
-  }, [threshold])
+  }, [threshold, isMobile])
 
   return [ref, isVisible]
 }
