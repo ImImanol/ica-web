@@ -60,7 +60,7 @@ export default function Hero() {
 
         {/* Main title */}
         <h1 className="text-4xl sm:text-5xl md:text-7xl font-black text-white leading-tight mb-6">
-          Llevamos tu negocio
+          Llevo tu negocio
           <br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-gold-400 to-gold-600">
             al mundo digital
@@ -68,8 +68,8 @@ export default function Hero() {
         </h1>
 
         <p className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto mb-10 leading-relaxed">
-          Diseñamos y desarrollamos sitios web, landing pages y sistemas a
-          medida que hacen crecer tu negocio.
+          Diseño y desarrollo sitios web, landing pages y sistemas a medida
+          que hacen crecer tu negocio.
         </p>
 
         {/* CTAs */}

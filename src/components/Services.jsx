@@ -47,10 +47,10 @@ export default function Services() {
             Servicios
           </span>
           <h2 className="text-3xl md:text-5xl font-bold text-white mt-3">
-            Lo que podemos hacer por vos
+            Lo que puedo hacer por vos
           </h2>
           <p className="text-gray-400 mt-4 max-w-2xl mx-auto">
-            Desde una landing page hasta un sistema completo de gestión, nos adaptamos a lo que tu negocio necesita.
+            Desde una landing page hasta un sistema completo de gestión, me adapto a lo que tu negocio necesita.
           </p>
         </div>
 

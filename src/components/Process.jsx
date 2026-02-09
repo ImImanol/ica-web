@@ -6,25 +6,25 @@ const steps = [
     icon: MessageSquare,
     step: '01',
     title: 'Contacto',
-    description: 'Nos contás qué necesitás. Analizamos tu negocio y te proponemos la mejor solución.',
+    description: 'Me contás qué necesitás. Analizo tu negocio y te propongo la mejor solución.',
   },
   {
     icon: PenTool,
     step: '02',
     title: 'Diseño',
-    description: 'Creamos el diseño de tu sitio. Te mostramos cómo va a quedar antes de desarrollarlo.',
+    description: 'Creo el diseño de tu sitio. Te muestro cómo va a quedar antes de desarrollarlo.',
   },
   {
     icon: Code,
     step: '03',
     title: 'Desarrollo',
-    description: 'Programamos tu sitio con las mejores tecnologías. Rápido, seguro y responsive.',
+    description: 'Programo tu sitio con las mejores tecnologías. Rápido, seguro y responsive.',
   },
   {
     icon: Rocket,
     step: '04',
     title: 'Entrega',
-    description: 'Publicamos tu sitio y te damos soporte continuo. Tu web siempre funcionando.',
+    description: 'Publico tu sitio y te doy soporte continuo. Tu web siempre funcionando.',
   },
 ]
 

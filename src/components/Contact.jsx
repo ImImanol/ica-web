@@ -67,7 +67,7 @@ export default function Contact() {
             Empecemos tu proyecto
           </h2>
           <p className="text-gray-400 mt-4 max-w-2xl mx-auto">
-            Contanos tu idea y te respondemos en menos de 24 horas.
+            Contame tu idea y te respondo en menos de 24 horas.
           </p>
         </div>
 
@@ -174,7 +174,7 @@ export default function Contact() {
                 required
                 rows={4}
                 className="w-full bg-navy-900/50 border border-navy-800 rounded-xl px-4 py-3 text-white placeholder-gray-600 focus:outline-none focus:border-gold-500/50 transition-colors resize-none"
-                placeholder="Contanos sobre tu proyecto..."
+                placeholder="Contame sobre tu proyecto..."
               />
             </div>
 
