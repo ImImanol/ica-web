@@ -10,7 +10,17 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
+.astro
 *.local
+
+# AI tooling
+.agents/
+.claude/
+.cursor/
+
+# Reference images
+img/
+screen.png
 
 # Editor directories and files
 .vscode/*

@@ -1,0 +1,28 @@
+---
+const year = new Date().getFullYear()
+---
+
+<footer class="border-t border-gray-800/30 py-8">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-3">
+        <img src="/logo-nuevo.png" alt="ICA Logo" class="h-7" />
+        <span class="text-sm font-semibold text-white tracking-wide">ICA</span>
+        <span class="text-xs text-gray-500 font-light">
+          &copy; {year} ICA
+        </span>
+      </div>
+      <div class="flex items-center gap-6">
+        <a href="#servicios" class="text-xs text-gray-500 hover:text-white transition-colors font-light">
+          Servicios
+        </a>
+        <a href="#portfolio" class="text-xs text-gray-500 hover:text-white transition-colors font-light">
+          Portfolio
+        </a>
+        <a href="#contacto" class="text-xs text-gray-500 hover:text-white transition-colors font-light">
+          Contacto
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>

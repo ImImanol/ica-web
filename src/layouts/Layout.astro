@@ -1,3 +1,15 @@
+---
+interface Props {
+  title?: string
+  description?: string
+}
+
+const {
+  title = 'ICA | Desarrollo Web & Soluciones Digitales',
+  description = 'Diseñamos y desarrollamos sitios web, landing pages y sistemas a medida para negocios y empresas. Páginas rápidas, modernas y que generan resultados. Contactanos.',
+} = Astro.props
+---
+
 <!doctype html>
 <html lang="es">
   <head>
@@ -5,46 +17,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- SEO Primary -->
-    <title>ICA | Desarrollo Web & Soluciones Digitales</title>
-    <meta name="description" content="Diseñamos y desarrollamos sitios web, landing pages y sistemas a medida para negocios y empresas. Páginas rápidas, modernas y que generan resultados. Contactanos." />
+    <title>{title}</title>
+    <meta name="description" content={description} />
     <meta name="keywords" content="desarrollo web, diseño web, landing page, sistema a medida, páginas web, Argentina, agencia digital, programación web, sitios web" />
     <meta name="author" content="Imanol Castro - ICA" />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://icaweb.dev/" />
 
     <!-- Favicon -->
-    <link rel="icon" href="/logo.webp" />
-    <link rel="apple-touch-icon" href="/logo.webp" />
+    <link rel="icon" href="/logo-nuevo.png" />
+    <link rel="apple-touch-icon" href="/logo-nuevo.png" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="ICA | Desarrollo Web & Soluciones Digitales" />
+    <meta property="og:title" content={title} />
     <meta property="og:description" content="Diseñamos y desarrollamos sitios web, landing pages y sistemas a medida para negocios y empresas." />
-    <meta property="og:image" content="https://icaweb.dev/logo.webp" />
+    <meta property="og:image" content="https://icaweb.dev/logo-nuevo.png" />
     <meta property="og:url" content="https://icaweb.dev/" />
     <meta property="og:locale" content="es_AR" />
     <meta property="og:site_name" content="ICA" />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="ICA | Desarrollo Web & Soluciones Digitales" />
+    <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content="Diseñamos y desarrollamos sitios web, landing pages y sistemas a medida para negocios y empresas." />
-    <meta name="twitter:image" content="https://icaweb.dev/logo.webp" />
+    <meta name="twitter:image" content="https://icaweb.dev/logo-nuevo.png" />
 
     <!-- Geo Tags (SEO local) -->
     <meta name="geo.region" content="AR-CF" />
     <meta name="geo.placename" content="Buenos Aires, Argentina" />
 
     <!-- JSON-LD Structured Data -->
-    <script type="application/ld+json">
-    {
+    <script type="application/ld+json" set:html={JSON.stringify({
       "@context": "https://schema.org",
       "@type": "ProfessionalService",
       "name": "ICA - Imanol Castro",
       "description": "Desarrollo web, landing pages y sistemas a medida para negocios y empresas en Argentina.",
       "url": "https://icaweb.dev",
-      "logo": "https://icaweb.dev/logo.webp",
-      "image": "https://icaweb.dev/logo.webp",
+      "logo": "https://icaweb.dev/logo-nuevo.png",
+      "image": "https://icaweb.dev/logo-nuevo.png",
       "telephone": "+542942553671",
       "email": "contacto@icaweb.dev",
       "address": {
@@ -64,12 +75,11 @@
       },
       "serviceType": ["Desarrollo Web", "Landing Pages", "Sistemas a Medida", "Mantenimiento Web"],
       "priceRange": "$$"
-    }
-    </script>
+    })} />
 
     <!-- Google Analytics (GA4) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q8L6EG0YV3"></script>
-    <script>
+    <script is:inline>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
@@ -77,12 +87,12 @@
     </script>
 
     <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet" />
   </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+  <body class="min-h-screen bg-black-950">
+    <slot />
+    <script src="../scripts/scroll-reveal.js"></script>
   </body>
 </html>
